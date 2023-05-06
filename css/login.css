@@ -1,9 +1,7 @@
 #main{
     width: 60%;
     margin: auto;
-    background-color: rgb(230, 238, 246);
-    border-radius: 5px;
-    
+    background-color: rgb(230, 238, 246);  
 }
 #td{
     font-weight: bold;
