@@ -1,0 +1,42 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#td{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px ;
+}
+#all_item{
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(200, 199, 199);
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-family: tahoma;
+    color: rgb(0, 42, 40);
+    margin: 0 5px 10px;
+    font-weight: bold;
+}
+.item:hover{
+    color: rgb(255, 153, 0);
+}
+.item img{
+    width: 150px;
+    height: 200px;
+    
+}
+#name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 40px;
+}

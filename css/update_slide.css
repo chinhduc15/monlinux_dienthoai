@@ -1,0 +1,28 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#mid{
+    display: flex;
+}
+#content{
+    width: 75%;
+}
+#td{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+#tb{
+    background-color: aqua;
+    margin: auto;
+    width: 70%;
+}
+#name{
+    width: 60%;
+}
+#op{
+    width: 40%;
+}

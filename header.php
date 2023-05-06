@@ -16,8 +16,8 @@
     <div id="header">
         <div>Dienthoai</div>
         <div>
-            <form action="" method="post">
-                <input type="text">
+            <form action="/monlinux/search.php" method="post">
+                <input type="text" name="tukhoa">
                 <button>Tìm</button>
             </form>
         </div>
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div id="menu">
-        <div><a href="" class="a" id="h1">Home</a></div>
+        <div><a href="/monlinux/home.php" class="a" id="h1">Home</a></div>
         <div><a href="/monlinux/phone.php" class="a" id="h2">Phone</a></div>   
         <div class="menu1">
             <div class="h" id="h3">Hãng</div>
