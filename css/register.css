@@ -1,0 +1,24 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#td{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px ;
+}
+#all_item form{
+    width: fit-content;
+    margin: auto;
+    
+}
+.u{
+    margin-top: 8px;
+}
+#mess{
+    text-align: center;
+    color: red;
+    height: 20px;
+}

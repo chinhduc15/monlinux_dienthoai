@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 208, 255);
+    padding: 15px 0;
+}
+#menu{
+    display: flex;
+    padding-left: 30px;
+    background-color: rgb(0, 95, 102);
+}
+#menu div .a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 3px 5px;
+    color: rgb(255, 255, 255);
+}
+#menu .a:hover{
+    background-color: rgb(0, 255, 102);
+}
+.menu1:hover #menu2{
+    display: block;
+}
+.menu1 .h{
+    display: inline-block;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 3px 5px;
+    color: rgb(255, 255, 255);
+}
+.menu1 .h:hover{
+    background-color: rgb(0, 255, 102);
+}
+
+.menu1 #menu2 a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: tahoma;
+    padding: 3px 5px;
+    color: white;
+}
+.menu1 div a:hover{
+    background-color: rgb(0, 255, 102);
+}
+#menu2{
+    display: none;
+    position: absolute;
+    background-color: rgb(3, 63, 84);
+}
