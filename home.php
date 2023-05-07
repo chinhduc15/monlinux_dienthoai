@@ -43,15 +43,24 @@
                 <h1>SẢN PHẨM MỚI NHẤT</h1>
             </div>
             <div id="all_item">
+
                 <?php
 			        while ($row=mysqli_fetch_array($sql)) {						
 		        ?>
+               
                 <a href="info_phone.php?id=<?php echo $row['idPhone'];?>" class="item">
                     <img src="<?php echo $row['hinhanh'];?>" alt="">
                     <div id="name"><?php echo $row['ten'];?></div>
+                   
+                    
+                 
                 </a>
+               
+              
                 <?php } ?>
-                
+             
+                      
+                </div>
             </div>
         </div>
     </div>

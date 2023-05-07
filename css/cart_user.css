@@ -1,0 +1,11 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#td{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px ;
+}
