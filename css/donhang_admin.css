@@ -1,0 +1,46 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#mid{
+    display: flex;
+}
+#content{
+    width: 75%;
+}
+#td{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+#add a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 149, 255);
+    padding: 5px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+#tb{
+    background-color: aqua;
+    margin: auto;
+    width: 70%;
+}
+#name{
+    width: 60%;
+}
+#op{
+    width: 40%;
+}
+#namephone{
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}

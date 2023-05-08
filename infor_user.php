@@ -30,18 +30,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/infor_user.css">
     <link rel="stylesheet" href="css/header.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/list_user.css">
+    <title>thong tin nguoi dung</title>
 </head>
 <body>
     <div id="main">
         <?php include('header.php'); ?>
-        <div>
-            <div id="td">THÔNG TIN NGƯỜI DÙNG</div>
-            <div id="all_item">
-            <div > tên tài khoản : <?php echo $row['taikhoan']?></div>
-            <div ><a href="cart_user.php">giỏ hàng</a></div>
-              
+        <div id="content">
+            <?php include('list_user.php'); ?>
+            <div id="right">
+                <div id="td">Thông tin cá nhân</div>
+                <div id="nd">
+                    <div><span>Tên tài khoản:</span> <?php echo $row['taikhoan']?></div>
+                    <div><span>Mật khẩu:</span> *******</div>
+                </div>
                 
+                
+
             </div>
         </div>
     </div>
