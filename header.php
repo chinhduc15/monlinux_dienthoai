@@ -12,21 +12,22 @@
         $rowUser=mysqli_fetch_array($sqlU);
     }
 ?>
-<div>
+<div id="huy">
     <div id="header">
-        <div class="logo">Dienthoai</div>
+        <div class="logo"><a href="/monlinux/home.php"><img src="/monlinux/images/logo.png" alt="" ></a></div>
+        
         <div >
             <form class="timkiem"  action="/monlinux/search.php" method="post">
                 <input  type="text" name="tukhoa">
                 <button>Tìm</button>
             </form>
         </div>
-        <div>
+        <div id="a">
             <?php
                 if(isset($_SESSION['idUser']) ||isset($_SESSION['idAdmin'])){
                    
-                    echo '<a href="/monlinux/infor_user.php">'.$rowUser['taikhoan'].'</a>';
-                    echo '<a href="/monlinux/logout.php">Đăng xuất</a>';
+                    echo '<a href="/monlinux/infor_user.php">'.$rowUser['taikhoan'].',</a>';
+                    echo '<a href="/monlinux/logout.php">logout</a>';
                 }else{
                     echo '<a href="/monlinux/login.php">Đăng nhập</a>';
                 }

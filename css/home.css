@@ -51,3 +51,8 @@
   .slides {
     animation: slide 14s linear infinite;
   }
+h1{
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 5px 5px 10px #143602;
+}

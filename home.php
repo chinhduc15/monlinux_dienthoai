@@ -40,7 +40,8 @@
                 </div>
             </div>
             <div>
-                <h1>SẢN PHẨM MỚI NHẤT</h1>
+                <h1 id="spnb">SẢN PHẨM MỚI NHẤT</h1>
+                <hr>
             </div>
             <div id="all_item">
 

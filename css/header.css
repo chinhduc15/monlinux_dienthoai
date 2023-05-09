@@ -2,28 +2,36 @@ body{
     margin: 0;
 }
 #header{
-    margin-top: 5px;
+   
     display: flex;
     justify-content: space-around;
     background-color: rgba(19, 40, 48, 0.333);
-    padding: 15px 0;
+    padding: 10px 0;
+    align-items: center;
+}
+#a a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
 }
 #menu{
+
     
     display: flex;
     padding-left: 30px;
-    background-color: rgb(0, 95, 102);
+    background-color: rgba(80, 127, 146, 0.616);
 }
 #menu div .a{
     display: inline-block;
     text-decoration: none;
     font-family: tahoma;
     font-size: 20px;
-    padding: 3px 5px;
+    padding: 15px 15px;
     color: rgb(255, 255, 255);
 }
+
 #menu .a:hover{
-    background-color: rgb(0, 255, 102);
+    background-color: rgba(45, 35, 187, 0.714);
 }
 .menu1:hover #menu2{
     display: block;
@@ -33,11 +41,11 @@ body{
     text-decoration: none;
     font-family: tahoma;
     font-size: 20px;
-    padding: 3px 5px;
+    padding: 15px 15px;
     color: rgb(255, 255, 255);
 }
 .menu1 .h:hover{
-    background-color: rgb(0, 255, 102);
+    background-color: rgba(45, 35, 187, 0.714);
 }
 
 .menu1 #menu2 a{
@@ -45,7 +53,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-family: tahoma;
-    padding: 3px 5px;
+    padding: 3px 8px;
     color: rgb(1, 24, 18);
 }
 .menu1 div a:hover{
@@ -59,7 +67,35 @@ body{
    
     
 }
-.timkiem{
-   border-radius: 5%;
-   box-shadow: 5%;
+.timkiem {
+    display: flex;
+  }
+  
+  .timkiem input[type="text"] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .timkiem button {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 4px 2px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #2533288e;
+    color: white;
+  }
+  .timkiem button:hover{
+    color: red;
+    background-color: rgb(38, 65, 171);
+  }
+.logo img{
+ height: 70px;
+ width: 70px;
+ vertical-align: middle;
 }
