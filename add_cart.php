@@ -40,7 +40,7 @@
                 $idsp=$_POST['idphone'];
                 $lenh1="INSERT INTO donhang(idPhone,idUser,soluong,tennguoinhan,sdt,diachi,trangthai) VALUES('$idsp','$idU','$sl','$tennguoinhan','$sdt','$diachi','0')";
                 mysqli_query($ct,$lenh1);
-
+                echo '<script>alert("Đặt hàng thành công")</script>';
             }
             
         }

@@ -14,10 +14,10 @@
 ?>
 <div>
     <div id="header">
-        <div>Dienthoai</div>
-        <div>
-            <form action="/monlinux/search.php" method="post">
-                <input type="text" name="tukhoa">
+        <div class="logo">Dienthoai</div>
+        <div >
+            <form class="timkiem"  action="/monlinux/search.php" method="post">
+                <input  type="text" name="tukhoa">
                 <button>Tìm</button>
             </form>
         </div>
