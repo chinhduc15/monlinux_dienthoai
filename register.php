@@ -40,7 +40,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="css/header.css">
     <title>Đăng nhập</title>
     
@@ -48,7 +48,7 @@
 <body>
     <div id="main">
         <?php include('header.php'); ?>
-        <div>
+        <div class="boddy">
             <div id="td">ĐĂNG KÝ</div>
             <div id="all_item">
                 <div id="mess">
@@ -66,7 +66,7 @@
                     <div><input type="password" name="mk" placeholder="mật khẩu"></div>
                     <div class="u">Nhập lại mật khẩu</div>
                     <div><input type="password" name="rmk" placeholder="mật khẩu"></div>
-                    <div class="u"><button name="btn">Đăng ký</button></div>
+                    <div class="btn"><button name="btn" id="btn">Đăng ký</button></div>
                     <div>Bạn có tài khoản? <a href="/monlinux/login.php">Đăng nhập ngay</a></div>
                 </form>
                 

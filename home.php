@@ -27,7 +27,7 @@
     <div id="main">
         <?php include('header.php'); ?>
         <div>
-            <div id="td">HOME</div>
+           
             
            
             <div class="slideshow">

@@ -16,6 +16,10 @@
                 session_write_close();
             }
         
+        }else{
+            
+            header("location: /monlinux/login.php");
+            
         }
 		
 		

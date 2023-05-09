@@ -1,6 +1,6 @@
 
 <?php
-    
+       
         $ct=mysqli_connect("localhost","root","","monlinux");
         session_start();
         if(isset($_SESSION['idAdmin'])||isset($_SESSION['idUser'])){
@@ -13,6 +13,8 @@
                 session_write_close();
             }
         
+        }else{
+            header("location: /monlinux/login.php");
         }
         
 		$lenh="SELECT * FROM donhang WHERE idUser=$id ORDER BY idDonhang DESC";

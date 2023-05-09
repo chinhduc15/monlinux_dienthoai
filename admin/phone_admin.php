@@ -1,4 +1,9 @@
 <?php
+        session_start();
+        if(!isset($_SESSION['idAdmin'])){
+            header("location: /monlinux/login.php");
+        }
+        session_write_close();
 		$ct=mysqli_connect("localhost","root","","monlinux");
 		$lenh="SELECT * FROM phone ORDER BY idPhone DESC";
 		$sql=mysqli_query($ct,$lenh);

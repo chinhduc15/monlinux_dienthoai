@@ -26,13 +26,15 @@
             <?php
                 if(isset($_SESSION['idUser']) ||isset($_SESSION['idAdmin'])){
                    
-                    echo '<a href="/monlinux/infor_user.php">'.$rowUser['taikhoan'].',</a>';
-                    echo '<a href="/monlinux/logout.php">logout</a>';
+                    
+                    echo '<a href="/monlinux/infor_user.php"><img src="https://img.icons8.com/?size=512&id=23265&format=png " alt="" width="40px">'.$rowUser['taikhoan'].'</a>';
+                    echo '<a href="/monlinux/logout.php"><img src="https://img.icons8.com/?size=512&id=j8vtslxN0LJo&format=png" alt="" width="40px"></a>';
                 }else{
                     echo '<a href="/monlinux/login.php">Đăng nhập</a>';
                 }
             ?>
         </div>
+        
 
     </div>
     <div id="menu">

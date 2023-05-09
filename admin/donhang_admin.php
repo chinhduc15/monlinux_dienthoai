@@ -1,4 +1,9 @@
 <?php
+        session_start();
+        if(!isset($_SESSION['idAdmin'])){
+            header("location: /monlinux/login.php");
+        }
+        session_write_close();
 		$ct=mysqli_connect("localhost","root","","monlinux");
         //đã duyệt
 		$lenh="SELECT * FROM donhang WHERE trangthai=1 ORDER BY idDonhang DESC ";

@@ -24,7 +24,7 @@
     <div id="main">
         <?php include('header.php'); ?>
         <div>
-            <div id="td">PHONE</div>
+            
             <div id="all_item">
                 <?php
 			        while ($row=mysqli_fetch_array($sql)) {						
