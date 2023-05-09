@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="css/infor_user.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/list_user.css">
+    
     <title>thong tin nguoi dung</title>
 </head>
 <body>
@@ -54,5 +55,6 @@
             </div>
         </div>
     </div>
+   
 </body>
 </html>

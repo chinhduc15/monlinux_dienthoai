@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="css/cart_user.css">
     <link rel="stylesheet" href="css/list_user.css">
     <link rel="stylesheet" href="css/header.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -101,6 +102,7 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>
 
