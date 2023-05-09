@@ -5,6 +5,79 @@
 #content{
     width: 75%;
 }
+#daduyet {
+    margin: 20px;
+  }
+  
+  .tb1 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tb1 tr.tittle {
+    background-color: #f2f2f2;
+  }
+  
+  .tb1 td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .tb1 td:first-child {
+    font-weight: bold;
+  }
+  
+  .tb1 td:last-child {
+    text-align: center;
+  }
+  
+  .tb1 a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .tb1 a:hover {
+    text-decoration: underline;
+  }
+
+  
+  #chuaduyet {
+    margin: 20px;
+  }
+  
+  .tb2 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tb2 tr.tittle2 {
+    background-color: #f2f2f2;
+  }
+  
+  .tb2 td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    
+  }
+  
+  .tb2 td:first-child {
+    font-weight: bold;
+  }
+  
+  .tb2 td:last-child {
+    text-align: center;
+  }
+  
+  .tb2 a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .tb2 a:hover {
+    text-decoration: underline;
+  }
+  
 #td{
     font-weight: bold;
     font-size: 25px;

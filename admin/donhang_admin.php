@@ -44,8 +44,8 @@
                         <span onclick="chuaduyet()" id="cd">Chưa duyệt</span>
                     </div>
                     <div id="daduyet">
-                        <table>
-                            <tr>
+                        <table class="tb1">
+                            <tr class="tittle">
                                 <td>Tên sản phẩm</td>
                                 <td>Số lượng</td>
                                 <td>Tổng tiền</td>
@@ -60,7 +60,7 @@
                                     $sql1=mysqli_query($ct,$lenh1);
                                     $row1=mysqli_fetch_array($sql1)
                             ?>
-                            <tr>
+                                 <tr>
                                 <td><?php echo $row1['ten']?></td>
                                 <td><?php echo $row['soluong']?></td>
                                 <td><?php echo $row['soluong']*$row1['gia']?></td>
@@ -75,14 +75,14 @@
                                     <a href="info_donhang.php?id=<?php echo $row['idDonhang']?>">Check</a>
                                 </td>
 
-                            </tr>
+                                </tr>
                             <?php } ?>
                         </table>
                     </div>
 
                     <div id="chuaduyet">
-                        <table>
-                            <tr>
+                        <table class="tb2">
+                            <tr class="tittle2">
                                 <td>Tên sản phẩm</td>
                                 <td>Số lượng</td>
                                 <td>Tổng tiền</td>

@@ -35,7 +35,7 @@
                 <div id="td">User</div>
                 <div>
                     <table border="1" id="tb">
-                        <tr>
+                        <tr class="tittle">
                             <td id="name">Tên người dùng</td>
                             <td id="op">Level</td>
                         </tr>
@@ -43,7 +43,7 @@
 			                while ($row=mysqli_fetch_array($sql)) {
 						
 		                ?>
-                        <tr>
+                        <tr class="body">
                             <td><?php echo $row['taikhoan'];?></td>
                             <td>                              
                             <?php echo $row['lv'];?>
