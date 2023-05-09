@@ -45,12 +45,12 @@
 			                while ($row=mysqli_fetch_array($sql)) {
 						
 		                ?>
-                        <tr>
+                        <tr class="phonee">
                             <td><div id="namephone"><?php echo $row['ten'];?></div></td>
-                            <td>
-                                <a href="/monlinux/info_phone.php?id=<?php echo $row['idPhone'];?>">Check</a>
-                                <a href="edit_phone.php?id=<?php echo $row['idPhone'];?>">Update</a>
-                                <a href="delete_phone.php?id=<?php echo $row['idPhone'];?>">Delete</a>
+                            <td >
+                                <a id="check" href="/monlinux/info_phone.php?id=<?php echo $row['idPhone'];?>">Check</a>
+                                <a id="update" href="edit_phone.php?id=<?php echo $row['idPhone'];?>">Update</a>
+                                <a id="delete" href="delete_phone.php?id=<?php echo $row['idPhone'];?>">Delete</a>
                             </td>
                         </tr>
                         <?php } ?>
