@@ -31,7 +31,7 @@
                 <div id="add"><a href="add_phone.php">Add phone</a></div>
                 <div>
                     <table border="1" id="tb">
-                        <tr>
+                        <tr id="namecot">
                             <td id="name">Tên điện thoại</td>
                             <td id="op">Tùy chọn</td>
                         </tr>
