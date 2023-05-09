@@ -29,6 +29,7 @@
                     <div id="name"><?php echo $row['ten'];?></div>
                     <div>Hãng: <?php echo $row['hang'];?></div>
                     <div>Giá: <?php echo $row['gia'];?> VND</div>
+                   <div> <a class="addcart" href="add_cart.php?id=<?php echo $row['idPhone'];?>">ĐẶT HÀNG NGAY</a></div>
                 </div>
                 <div id="info1">
                     <?php echo $row['cauhinh'];?>

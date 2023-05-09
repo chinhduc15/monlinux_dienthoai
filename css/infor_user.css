@@ -1,0 +1,19 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#content{
+    display: flex;
+}
+#right{
+    width: 75%;
+}
+#td{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+#nd div span{
+    font-weight: bold;
+}

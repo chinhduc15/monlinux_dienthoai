@@ -1,0 +1,32 @@
+#main{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(230, 238, 246);
+}
+#mid{
+    display: flex;
+}
+#content{
+    width: 75%;
+}
+#td{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+#conten{
+    padding: 10px;
+}
+.tdsp{
+    font-size: 20px;
+    font-weight: bold;
+}
+#tt{
+    display: flex;
+    margin-top: 10px;
+}
+#im{
+    width: 150px;
+    height: 190px;
+}

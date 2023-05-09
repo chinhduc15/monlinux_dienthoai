@@ -14,26 +14,28 @@
 ?>
 <div>
     <div id="header">
-        <div>Dienthoai</div>
-        <div>
-            <form action="" method="post">
-                <input type="text">
+        <div class="logo">Dienthoai</div>
+        <div >
+            <form class="timkiem"  action="/monlinux/search.php" method="post">
+                <input  type="text" name="tukhoa">
                 <button>Tìm</button>
             </form>
         </div>
         <div>
             <?php
                 if(isset($_SESSION['idUser']) ||isset($_SESSION['idAdmin'])){
-                    echo $rowUser['taikhoan'];
+                   
+                    echo '<a href="/monlinux/infor_user.php">'.$rowUser['taikhoan'].'</a>';
                     echo '<a href="/monlinux/logout.php">Đăng xuất</a>';
                 }else{
                     echo '<a href="/monlinux/login.php">Đăng nhập</a>';
                 }
             ?>
         </div>
+
     </div>
     <div id="menu">
-        <div><a href="" class="a" id="h1">Home</a></div>
+        <div><a href="/monlinux/home.php" class="a" id="h1">Home</a></div>
         <div><a href="/monlinux/phone.php" class="a" id="h2">Phone</a></div>   
         <div class="menu1">
             <div class="h" id="h3">Hãng</div>

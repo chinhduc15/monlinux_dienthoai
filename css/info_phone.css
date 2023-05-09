@@ -57,3 +57,13 @@
     height: 200px;
     
 }
+.addcart{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+    background-color: rgb(9, 121, 155);
+    width: 160px;
+    margin: auto;
+}

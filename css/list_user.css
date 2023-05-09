@@ -1,0 +1,25 @@
+#left{
+    width: 25%;
+    background-color: rgb(147, 182, 155);
+}
+#image{
+    text-align: center;
+    padding: 10px;
+}
+#image img{
+    width: 150px;
+    height: 150px;
+}
+.me{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(2, 72, 92);
+    font-size: 20px;
+    font-family: tahoma;
+    padding: 8px;
+}
+.me:hover{
+    background-color: rgb(3, 62, 66);
+    color: white;
+}
