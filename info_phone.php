@@ -16,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/info_phone.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+
     <title>Phone</title>
 </head>
 <body>
@@ -38,5 +40,6 @@
             </div>
         </div>
     </div>
+    <?php include('lienhe.php'); ?>
 </body>
 </html>

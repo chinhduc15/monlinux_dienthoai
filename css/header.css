@@ -5,6 +5,7 @@ body{
     width: 80%;
     margin: auto;
     background-color: rgb(230, 238, 246);
+    
 }
 #header{
    
@@ -13,9 +14,10 @@ body{
     background-color: rgba(19, 40, 48, 0.333);
     padding: 10px 0;
     align-items: center;
+   
 }
 #a a{
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     margin-left: 10px;
 }

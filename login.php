@@ -40,13 +40,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/header.css">
+    
     <title>Đăng nhập</title>
     
 </head>
 <body>
+    
     <div id="main">
         <?php include('header.php'); ?>
-        <div>
+        <div class="boddy">
             <div id="td">ĐĂNG NHẬP</div>
             <div id="all_item">
                 <div id="mess">
@@ -62,12 +64,14 @@
                     <div><input type="text" name="tk" placeholder="tài khoản"></div>
                     <div class="u">Mật khẩu</div>
                     <div><input type="password" name="mk" placeholder="mật khẩu"></div>
-                    <div class="u"><button name="btn">Đăng nhập</button></div>
+                    <div class="btn"><button name="btn" id="btn">Đăng nhập</button></div>
                     <div>Bạn chưa có tài khoản? <a href="/monlinux/register.php">Đăng kí ngay</a></div>
                 </form>
                 
             </div>
         </div>
+       
     </div>
+    
 </body>
 </html>

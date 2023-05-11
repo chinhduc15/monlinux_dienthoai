@@ -12,9 +12,69 @@
 }
 .u{
     margin-top: 8px;
+    
+}
+.btn{
+    margin-top: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#btn:hover{
+    background-color: rgb(15, 54, 102);
+    color: rgb(193, 12, 24);
 }
 #mess{
     text-align: center;
     color: red;
     height: 20px;
+}
+
+
+
+#all_item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+  height: 300px;
+ 
+}
+
+.u {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button[name="btn"] {
+  padding: 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: #008CBA;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.boddy{
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 20px;
 }

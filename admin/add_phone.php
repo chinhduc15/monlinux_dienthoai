@@ -1,5 +1,9 @@
 <?php
-
+    session_start();
+    if(!isset($_SESSION['idAdmin'])){
+        header("location: /monlinux/login.php");
+    }
+    session_write_close();
     $ct=mysqli_connect("localhost","root","","monlinux");
     if (isset($_POST['btn'])) {
         $ten=$_POST['ten'];
@@ -8,7 +12,9 @@
         $cauhinh=$_POST['cauhinh'];
         $hinhanh=$_POST['hinhanh'];
         if($ten==""||$hang==""||$gia==""||$cauhinh==""||$hinhanh==""){
+            session_start();
             $_SESSION['thongbao']="Vui lòng nhập đầy đủ !";
+            session_write_close();
         }else{
             $lenh="INSERT INTO phone(ten,hang,gia,hinhanh,cauhinh) VALUES('$ten','$hang','$gia','$hinhanh','$cauhinh')";
             mysqli_query($ct,$lenh);
@@ -82,7 +88,7 @@
 
            CKEDITOR.replace( 'editor1',{
            		uiColor: '#14B8C4',
-           		width:['600px'],height:['300px']
+           		width:['100%'],height:['300px']
            } );
 
        </script>    

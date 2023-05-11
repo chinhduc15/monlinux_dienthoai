@@ -34,6 +34,7 @@
     margin: auto;
     width: 70%;
     border-collapse:collapse;
+    
 }
 #namecot td{
     font-weight: bold;
@@ -48,8 +49,24 @@
     width: 40%;
 }
 #namephone{
-    width: 250px;
+    width: 100%;
     overflow: hidden;
     white-space: nowrap; 
     text-overflow: ellipsis;
+    text-align: center;
+}
+.phonee{
+    text-align: center;
+}
+#check:hover{
+    background-color: rgba(11, 11, 216, 0.723);
+    color: rgb(243, 0, 0);
+}
+#delete:hover{
+    background-color: rgba(204, 91, 16, 0.822);
+    color: rgb(243, 0, 0);
+}
+#update:hover{
+    background-color: rgba(32, 186, 24, 0.685);
+    color: rgb(243, 0, 0);
 }

@@ -1,6 +1,6 @@
 
 <?php
-    
+       
         $ct=mysqli_connect("localhost","root","","monlinux");
         session_start();
         if(isset($_SESSION['idAdmin'])||isset($_SESSION['idUser'])){
@@ -13,6 +13,8 @@
                 session_write_close();
             }
         
+        }else{
+            header("location: /monlinux/login.php");
         }
         
 		$lenh="SELECT * FROM donhang WHERE idUser=$id ORDER BY idDonhang DESC";
@@ -33,6 +35,7 @@
     <link rel="stylesheet" href="css/cart_user.css">
     <link rel="stylesheet" href="css/list_user.css">
     <link rel="stylesheet" href="css/header.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -99,6 +102,7 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>
 

@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/phone.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+   
+
     <title>Phone</title>
     <style>
         #h2{
@@ -24,7 +27,7 @@
     <div id="main">
         <?php include('header.php'); ?>
         <div>
-            <div id="td">PHONE</div>
+            
             <div id="all_item">
                 <?php
 			        while ($row=mysqli_fetch_array($sql)) {						
@@ -38,5 +41,6 @@
             </div>
         </div>
     </div>
+    <?php include('lienhe.php'); ?>
 </body>
 </html>

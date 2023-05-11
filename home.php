@@ -15,19 +15,23 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/phone.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/lienhe.css">
     <title>Phone</title>
     <style>
         #h1{
             background-color: rgb(82 139 139);
             color: white;
         }
+             
+
     </style>
 </head>
 <body>
     <div id="main">
         <?php include('header.php'); ?>
+        
         <div>
-            <div id="td">HOME</div>
+           
             
            
             <div class="slideshow">
@@ -65,6 +69,7 @@
             </div>
         </div>
     </div>
+    <?php include('lienhe.php'); ?>
 </body>
 
 </html>

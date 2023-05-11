@@ -11,14 +11,43 @@
     text-align: center;
     padding: 10px 0;
 }
-#tb{
-    background-color: aqua;
-    margin: auto;
-    width: 70%;
-}
-#name{
-    width: 60%;
-}
-#op{
-    width: 40%;
-}
+#content {
+    margin: 20px;
+  }
+  
+  #tb {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tb tr.tittle {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  #tb td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #name {
+    width: 50%;
+  }
+  
+  #op {
+    width: 25%;
+  }
+  
+  .body td:first-child {
+    font-weight: bold;
+    background-color: #ddd;
+    
+  }
+  
+  .body td:last-child {
+    text-align: center;
+    background-color: #ddd
+    ;
+  }
+  
+  
