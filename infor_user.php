@@ -41,8 +41,8 @@
             <div id="right">
                 <div id="td">Thông tin cá nhân</div>
                 <div id="nd">
-                    <div><span>Tên tài khoản:</span> <?php echo $row['taikhoan']?></div>
-                    <div><span>Mật khẩu:</span> *******</div>
+                    <div class="u"><span>Tên tài khoản:</span> <?php echo $row['taikhoan']?></div>
+                    <div class="u"><span>Mật khẩu:</span> *******</div>
                 </div>
                 
                 

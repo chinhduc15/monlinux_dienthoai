@@ -3,16 +3,33 @@
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 10px ;
     padding: 10px;
+    margin-bottom: 20px ;
+    text-shadow: 2px 2px 2px #54cbaf;
+    margin-top: 30px;
+}
+#all_item{
+    margin-left: 200px;
+
 }
 .td1{
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
+    text-shadow: 1px 1px 1px #ab330b;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 #infosp{
     display: flex;
     padding: 10px;
+    margin-left: 120px;
+}
+#infosp2{
+    display: flex;
+    padding: 10px;
+    margin-left: 370px;
+    color: #ab330b;
+    font-size: 30px;
 }
 #imgsp{
     width: 150px;
@@ -21,8 +38,45 @@
 .tt{
     font-size: 20px;
     font-family: tahoma;
-    padding-left: 20px;
+    padding-left: 100px;
 }
 #mess{
     color: red;
+    padding-left: 370px;
+    margin-bottom: 30px;
+}
+.tt2{
+    font-size: 20px;
+    font-family: tahoma;
+    padding-left: 370px;
+    margin-bottom: 20px;
+}
+.btn{
+    text-align: center;
+
+}
+.bt{
+    width: 180px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 120px;
+    background-color: #c64216;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    
+}
+.bt:hover{
+    background-color: #ab330b;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #000; 
+    margin: 10px 0px;
+}
+#input{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    height:30px ;
+    width: 300px;
 }

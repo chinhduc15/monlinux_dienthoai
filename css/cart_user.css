@@ -4,12 +4,37 @@
 }
 #right{
     width: 75%;
+    height: 700px;
+    background-color: rgb(244, 244, 244);
 }
 #td{
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px #54cbaf;
+
 }
-#nd div span{
+.nd{
+    margin-left: 20px;
+    font-size: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
     font-weight: bold;
-}
+  }

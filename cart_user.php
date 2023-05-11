@@ -42,7 +42,7 @@
             <?php include('list_user.php'); ?>
             <div id="right">
                 <div id="td">Đơn hàng của bạn</div>
-                <div>
+                <div class="nd" >
                     <table>
                         <tr>
                             <td>Tên sản phẩm</td>

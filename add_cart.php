@@ -60,29 +60,38 @@
     <link rel="stylesheet" href="css/header.css">
     <title>Phone</title>
 </head>
-<body>
+<body >
     <input type="hidden" value="<?php echo $row['gia']?>" id="gia">
     <div id="main">
         <?php include('header.php'); ?>
         <div>
-            <div id="td">TIẾN HÀNG ĐẶT HÀNG</div>
+            <div id="td">TIẾN HÀNH ĐẶT HÀNG</div>
             <div id="all_item">
                 
                 <div>
                     <div class="td1">Thông tin sản phẩm</div>
-                    <div id="infosp">
+                    <div id="infosp" >
                         <img src="<?php echo $row['hinhanh']?>" alt="" id="imgsp">
                         <div class="tt">
-                            <div>Tên sản phẩm: <?php echo $row['ten']?></div>
-                            <div>Hãng: <?php echo $row['hang']?></div>
-                            <div>Giá:<?php echo $row['gia']?></div>
-                            <div>Số lượng: <input type="number" value="1" id="sl" onchange="soluong()"></div>
+                            <div >Tên sản phẩm: 
+                                <?php echo $row['ten']?>
+                            </div>
+                            <div >Hãng: 
+                                <?php echo $row['hang']?>
+                            </div>
+                            <div >Giá:
+                                <?php echo $row['gia']?>
+                            </div>
+                            <div >Số lượng: 
+                                <input type="number" value="1" id="sl" onchange="soluong()">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div  id="infosp2">
                     Tổng tiền : <span id="tongtien"></span>
                 </div>
+                <hr>
                 <form action="" method="post">
                 <div>
                     <div class="td1">Thông tin nhận hàng</div>
@@ -96,21 +105,21 @@
                                 }
                             ?>
                         </div>
-                        <table>
+                        <table class="tt2">
                             <tr>
                                 <td>Tên khách hàng</td>
-                                <td><input type="text" name="tennguoinhan"></td>
+                                <td><input type="text" name="tennguoinhan" id="input"></td>
                             </tr>
                             <tr>
                                 <td>Số điện thoại</td>
-                                <td><input type="number" name="sdt"></td>
+                                <td><input type="number" name="sdt" id="input" ></td>
                             </tr>
                             <tr>
                                 <td>Địa chỉ</td>
-                                <td><input type="text" name="diachi"></td>
+                                <td><input type="text" name="diachi" id="input"></td>
                             </tr>
                         </table>
-                        <div><button name="btn">Đặt hàng</button></div>
+                        <div class="btn"><button name="btn" class="bt">Đặt hàng</button></div>
                         
                     
                 </div>

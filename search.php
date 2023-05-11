@@ -32,7 +32,7 @@
                     echo $tukhoa ;
                 ?>
             </div>
-            <div>
+            <div id="khong">
                 <?php
                    
                     if($dulieu==0||$tukhoa==""){
