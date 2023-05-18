@@ -1,6 +1,6 @@
 <?php
 		$ct=mysqli_connect("localhost","root","","monlinux");
-		$lenh="SELECT * FROM phone";
+		$lenh="SELECT * FROM phone ORDER BY idPhone DESC";
 		$sql=mysqli_query($ct,$lenh);
 
 	?>

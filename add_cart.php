@@ -1,4 +1,7 @@
 <?php 
+  
+    
+
     $ct=mysqli_connect("localhost","root","","monlinux");
     if (isset($_GET['id'])) {
         $idsp=$_GET['id'];
@@ -49,6 +52,40 @@
     
 
 ?>
+<?php
+     if(isset($_POST['btnn']) ){
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://bio.ziller.vn/api/qr/add",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 2,
+            CURLOPT_TIMEOUT => 10,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_HTTPHEADER => array(
+                "Authorization: Bearer 6ea463bd3531c719d0be9155f54bbc8d",
+                "Content-Type: application/json",
+            ),
+            
+            CURLOPT_POSTFIELDS => json_encode(array (
+                'type' => 'text',
+                'data' => '2|99|0912350096|NGUYEN QUANG HUY||0|0|'.$_POST['sdt'].'|huy|',
+                'background' => 'rgb(255,255,255)',
+                'foreground' => 'rgb(0,0,0)',
+                'logo' => 'https://site.com/logo.png',
+                )),
+                ));
+
+        $response = curl_exec($curl);
+
+        curl_close($curl);
+
+
+        $huy = json_decode($response);
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -91,10 +128,11 @@
                 </div>
                 <div  id="infosp2">
                     Tổng tiền : <span id="tongtien"></span>
+                    
                 </div>
                 <hr>
                 <form action="" method="post">
-                <div>
+                <div class="ttnh">
                     <div class="td1">Thông tin nhận hàng</div>
                         <input type="hidden" value="<?php echo $row['idPhone']?>" name="idphone">
                         <input type="hidden" id="soluong" name="soluong">
@@ -119,18 +157,27 @@
                                 <td>Địa chỉ</td>
                                 <td><input type="text" name="diachi" id="input"></td>
                             </tr>
+                            <tr>
+                                <td>Hình thức thanh toán:</td>
+                                    
+                                     <td><b>(Thanh toán khi nhận hàng)</b> </td>
+                                
+                            </tr>
+                           
                         </table>
+                       
                         <div class="btn"><button name="btn" class="bt">Đặt hàng</button></div>
-                        
+                     
                     
                 </div>
-                </form>
+                
                 
             </div>
         </div>
     </div>
    
 </body>
+
 </html>
 <script>
     function soluong(){

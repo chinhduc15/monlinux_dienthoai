@@ -47,8 +47,9 @@
         <div id="mid">
             <?php include('./list_admin.php'); ?>
             <div id="content">
-                <div id="td">User</div>
-                <div>
+                <div id="td">Update Slide</div>
+                <div id="conte">
+                    <div id="im"><img src="<?php echo $row['linkImage'];?>" alt=""></div>
                     <form action="" method="post">
                         <input type="text" name="link" value="<?php echo $row['linkImage'];?>">
                         <button name="btn">Update</button>

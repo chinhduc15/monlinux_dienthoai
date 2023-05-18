@@ -33,14 +33,14 @@
             <?php include('./list_admin.php'); ?>
             <div id="content">
                 <div id="td">Update slide</div>
-                <div>
+                <div id="cc">
                     <?php
 			            while ($row=mysqli_fetch_array($sql)) {
 						
 		            ?>
                     <div>
                         <img src="<?php echo $row['linkImage'];?>" alt="ko co anh" class="img">
-                        <a href="update_slide.php?id=<?php echo $row['idSlide'];?>">Update</a>
+                        <a class="up" href="update_slide.php?id=<?php echo $row['idSlide'];?>">Update</a>
                     </div>
                     
                     

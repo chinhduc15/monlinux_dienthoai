@@ -77,7 +77,7 @@
                                     }else if($row['trangthai']==1){
                                         echo "Đã duyệt";
                                     }else if($row['trangthai']==2){
-                                        echo "Đã hủy";
+                                        echo "Đã bị hủy";
                                     }
                                 ?>
                             </td>
@@ -88,7 +88,7 @@
                                     }else if($row['trangthai']==1){
                                         echo "";
                                     }else if($row['trangthai']==2){
-                                        echo '<a href="/monlinux/huydon_user.php?id='.$row['idDonhang'].'">Hủy đơn hàng</a>';
+                                        echo "";
                                     }
                                 ?>
                             </td>

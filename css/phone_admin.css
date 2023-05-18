@@ -2,71 +2,77 @@
 #mid{
     display: flex;
 }
-#content{
+#content {
     width: 75%;
-}
-#td{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+  }
+  
+  #td {
+    font-size: 24px;
     font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    padding: 10px 0;
-}
-#add a{
+    margin-bottom: 20px;
+  }
+  
+  #add {
+    float: right;
+    margin-bottom: 20px;
+  }
+  
+  #add a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
     text-decoration: none;
-    font-size: 19px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 149, 255);
-    padding: 5px;
-    display: block;
-    width: 100px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    border-radius: 10px;
-}
-#add a:hover{
-    background-color: brown;
-    color: blue;
-}
-
-#tb{
-    background-color: aqua;
-    margin: auto;
-    width: 70%;
-    border-collapse:collapse;
-    
-}
-#namecot td{
-    font-weight: bold;
-    color: rgb(149, 48, 14);
-    text-align: center;
-    font-size: 20px;
-}
-#name{
-    width: 60%;
-}
-#op{
-    width: 40%;
-}
-#namephone{
+    border-radius: 5px;
+  }
+  
+  #add a:hover {
+    background-color: #3e8e41;
+  }
+  
+  #tb {
     width: 100%;
-    overflow: hidden;
-    white-space: nowrap; 
-    text-overflow: ellipsis;
+    border-collapse: collapse;
+  }
+  
+  #namecot {
+    background-color: #f2f2f2;
+  }
+  
+  #name {
+    width: 70%;
     text-align: center;
-}
-.phonee{
+    padding: 10px;
+  }
+  
+  #op {
+    width: 30%;
     text-align: center;
-}
-#check:hover{
-    background-color: rgba(11, 11, 216, 0.723);
-    color: rgb(243, 0, 0);
-}
-#delete:hover{
-    background-color: rgba(204, 91, 16, 0.822);
-    color: rgb(243, 0, 0);
-}
-#update:hover{
-    background-color: rgba(32, 186, 24, 0.685);
-    color: rgb(243, 0, 0);
-}
+    padding: 10px;
+  }
+  
+  .phonee:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #namephone {
+    padding: 10px;
+  }
+  
+  #check, #update, #delete {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #check:hover, #update:hover, #delete:hover {
+    background-color: #3e8e41;
+  }

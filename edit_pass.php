@@ -61,31 +61,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/edit_pass.css">
+    <link rel="stylesheet" href="css/list_user.css">
     <title>Document</title>
 </head>
 <body>
     <div id="main">
         <?php include('header.php'); ?>
-                <div id="mess">
-                    <?php 
-                        if(isset($_SESSION['thongbao'])){        //thong bao
-                            echo $_SESSION['thongbao'];
-                            unset($_SESSION['thongbao']);
-                        }
-                    ?>
-                  </div>  
-        <form  action=""  method="post">
-                <label for="currentPassword">mật khẩu hiện tại:</label>
-                <input type="password" id="currentPassword" name="mkcu" required><br>
+        <div id="content">
+                <?php include('list_user.php'); ?>
+                
+                <div id="right">
+                        <div id="mess">
+                            <?php 
+                                if(isset($_SESSION['thongbao'])){        //thong bao
+                                    echo $_SESSION['thongbao'];
+                                    unset($_SESSION['thongbao']);
+                                }
+                            ?>
+                        </div>
+                    <form action="" method="post">
+                    <div>
+                        <label for="currentPassword">mật khẩu hiện tại:</label>
+                        <input type="password" id="currentPassword" name="mkcu" required>
 
-                <label for="newPassword">mật khẩu mới:</label>
-                <input type="password" id="newPassword" name="mk" required><br>
+                        <label for="newPassword">mật khẩu mới:</label>
+                        <input type="password" id="newPassword" name="mk" required>
 
-                <label for="confirmPassword">nhập lại mật khẩu:</label>
-                <input type="password" id="confirmPassword" name="rmk" required><br>
+                        <label for="confirmPassword">nhập lại mật khẩu:</label>
+                        <input type="password" id="confirmPassword" name="rmk" required>
 
-                <button name="submit">Update</button>
-        </form>
-     </div>
+                        <button name="submit">Update</button>
+                    </div>
+                    </form>
+                </div>
+        </div>
+    </div>
 </body>
 </html>

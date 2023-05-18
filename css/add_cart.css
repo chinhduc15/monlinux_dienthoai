@@ -12,12 +12,16 @@
     margin-left: 200px;
 
 }
+.ttnh{
+    padding-bottom: 100px;
+}
 .td1{
     font-size: 25px;
     font-weight: bold;
     text-shadow: 1px 1px 1px #ab330b;
     margin-bottom: 15px;
     margin-top: 30px;
+    
 }
 #infosp{
     display: flex;
